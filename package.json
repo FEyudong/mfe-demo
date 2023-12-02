@@ -1,0 +1,21 @@
+{
+  "name": "mfe-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "base": "pnpm --filter base run dev",
+    "app1": "pnpm --filter app1 run dev",
+    "vite-app": "pnpm --filter vite-app run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEyudong/mfe-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FEyudong/mfe-demo/issues"
+  },
+  "homepage": "https://github.com/FEyudong/mfe-demo#readme"
+}

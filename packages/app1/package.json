@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "author": "yudong <18813006133@163.com>",
+  "name": "app1",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd": "^5.4.0",
+    "umi": "^4.0.87"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "@umijs/plugins": "^4.0.88",
+    "typescript": "^5.0.3"
+  }
+}
