@@ -22,12 +22,9 @@ export default function HomePage() {
         centered
         open={isModalOpen}
         onCancel={handleCloseModal}
-        // style={{
-        //   position:'fixed',
-        //   zIndex:1000
-        // }}
         onOk={handleCloseModal}
-        // getContainer={false} // 指定 Modal 挂载的节点, false 为挂载在当前位置。
+        getContainer={false} 
+        // 指定 Modal 挂载的节点, false 为挂载在当前位置。
       >
         快来看下，我居不居中？
       </Modal>

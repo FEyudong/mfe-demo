@@ -49,11 +49,12 @@ export default defineConfig({
       apps: [
         {
           name: 'app1', // 唯一 id
-          entry: '//localhost:8001', // html entry
+          entry: '//localhost:3001', // html entry
         }
       ],
       sandbox:{
-        strictStyleIsolation:true
+        // strictStyleIsolation:true,
+        experimentalStyleIsolation: true
       }
     },
   },
