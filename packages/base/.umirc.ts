@@ -53,8 +53,8 @@ export default defineConfig({
         }
       ],
       sandbox:{
-        // strictStyleIsolation:true,
-        experimentalStyleIsolation: true
+        strictStyleIsolation:true, // 样式隔离-严格模式
+        // experimentalStyleIsolation: true, // 样式隔离-实验模式
       }
     },
   },
