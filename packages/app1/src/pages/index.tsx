@@ -23,7 +23,7 @@ export default function HomePage() {
         open={isModalOpen}
         onCancel={handleCloseModal}
         onOk={handleCloseModal}
-        getContainer={false} 
+        // getContainer={false} 
         // 指定 Modal 挂载的节点, false 为挂载在当前位置。
       >
         快来看下，我居不居中？

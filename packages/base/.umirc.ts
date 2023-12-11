@@ -53,8 +53,8 @@ export default defineConfig({
         }
       ],
       sandbox:{
-        // strictStyleIsolation:true,
-        experimentalStyleIsolation: true
+        strictStyleIsolation:true,
+        // experimentalStyleIsolation: true
       }
     },
   },
