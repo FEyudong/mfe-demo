@@ -7,7 +7,6 @@ const Demo: React.FC = () => {
       height="100%"
       name="app1"
       url="http://127.0.0.1:5173/"
-      // url="http://localhost:8001/app1"
       sync
     />
   );
